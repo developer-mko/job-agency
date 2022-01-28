@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+.home-section{  
+background: rgb(27 26 26 / 74%);
+background-image: url('https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?cs=srgb&dl=pexels-christina-morillo-1181354.jpg&fm=jpg'); 
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+
+.home-section header{
+    background: #555555cf;
+    position: fixed;
+    z-index: 1;
+}
+
+.banner-section{
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+.banner-section main{
+    font-size: 3rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.banner-text{
+    font-size: 16px;
+    color: #fff;
+}
+
+.job-page, .home-page{
+    height: 400px;
+}
+
+.home-jobs-container .home-jobs-img{
+    padding: 20px;
+    background-image: linear-gradient(to top left,#747272,#e3e1e1cf,transparent);
+    border-radius: 10%;
+    text-align: center;    
+    backdrop-filter: blur(0.5rem);
+}
+
+.home-jobs-container .home-jobs-img p{
+    font-size: 14px;
+}
+
+.home-jobs-container .home-jobs-img h5{
+    height: 40px;
+}
+
+.home-clients .client-row{
+border: 12px solid #555555cf;
+border-radius: 10px;
+}
+
+.site-footer {
+    padding: 3rem 0;
+    position: relative;
+    background: #555555cf;
+    color: seashell;
+    margin-top: 1.5em;
+}
+
+.site-footer h4{
+    line-height: 2.2;
+    font-size: 1rem;
+}
+
+.site-footer a{
+    line-height: 2.2;
+    font-size: 0.8rem;
+}
+ 
+

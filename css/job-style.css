@@ -1,0 +1,12 @@
+.job-item h2, .job-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.job-item .job-poster {
+    color: #b5b5b5;
+}
+
+.job-item .job-poster strong {
+    color: #000;
+}
